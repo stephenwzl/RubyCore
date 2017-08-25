@@ -1,28 +1,24 @@
 # RubyCore
 
-[![CI Status](http://img.shields.io/travis/summerbabybiu/RubyCore.svg?style=flat)](https://travis-ci.org/summerbabybiu/RubyCore)
-[![Version](https://img.shields.io/cocoapods/v/RubyCore.svg?style=flat)](http://cocoapods.org/pods/RubyCore)
-[![License](https://img.shields.io/cocoapods/l/RubyCore.svg?style=flat)](http://cocoapods.org/pods/RubyCore)
-[![Platform](https://img.shields.io/cocoapods/p/RubyCore.svg?style=flat)](http://cocoapods.org/pods/RubyCore)
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- **ruby-1.9 syntax**
+- mruby command line, by `brew install mruby`
+- MRuby pod from my another repo.
 
 ## Installation
 
-RubyCore is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
 ```ruby
-pod "RubyCore"
+pod "RubyCore", :git => 'https://github.com/stephenwzl/RubyCore.git'
+pod "MRuby", :git => 'https://github.com/stephenwzl/MRuby.git'
 ```
 
 ## Author
 
-summerbabybiu, zhilong.wang@ele.me
+stephenw, admin@stephenw.cc
 
 ## License
 

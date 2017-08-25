@@ -1,0 +1,27 @@
+{
+  "name": "RubyCore",
+  "version": "0.1.0",
+  "summary": "Ruby Interface For Objective-C",
+  "description": "ruby interface for Objective-C",
+  "homepage": "https://github.com/stephenwzl/RubyCore",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "summerbabybiu": "admin@stephenw.cc"
+  },
+  "source": {
+    "git": "https://github.com/stephenwzl/RubyCore.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RubyCore/Classes/**/*",
+  "dependencies": {
+    "MRuby": [
+      "~> 1.3"
+    ]
+  }
+}

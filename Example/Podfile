@@ -1,7 +1,8 @@
-use_frameworks!
+
 
 target 'RubyCore_Example' do
   pod 'RubyCore', :path => '../'
+  pod 'MRuby', :git => 'https://github.com/stephenwzl/ios-ruby-embedded.git'
 
   target 'RubyCore_Tests' do
     inherit! :search_paths

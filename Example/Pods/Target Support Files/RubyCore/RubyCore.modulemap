@@ -1,0 +1,6 @@
+framework module RubyCore {
+  umbrella header "RubyCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

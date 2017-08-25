@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		084E52F232A84BC8C133B18E /* Pods_RubyCore_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F6726EB5D97F56507F3D11 /* Pods_RubyCore_Example.framework */; };
-		3B41CA12D96A173F2A9D755B /* Pods_RubyCore_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E86CF597A2B94B8CF3E1CA9 /* Pods_RubyCore_Tests.framework */; };
+		4248FF6FB72584BB5C423F62 /* libPods-RubyCore_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 416B1B627C9F11C719EA0528 /* libPods-RubyCore_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +21,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6CD0D5311F500E3A0001EC4A /* demo.mrb in Resources */ = {isa = PBXBuildFile; fileRef = 6CD0D5301F500E3A0001EC4A /* demo.mrb */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C71E17306707CE7197CCEC85 /* libPods-RubyCore_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED0E55CAE3DDB462070A108 /* libPods-RubyCore_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		15B0D37300666A96E771C244 /* Pods-RubyCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyCore_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RubyCore_Example/Pods-RubyCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		416B1B627C9F11C719EA0528 /* libPods-RubyCore_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RubyCore_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* RubyCore_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RubyCore_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,15 +59,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6E86CF597A2B94B8CF3E1CA9 /* Pods_RubyCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RubyCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD0D5301F500E3A0001EC4A /* demo.mrb */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.mrb; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		74A3F2989F6276354BCB4516 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		804B4BC99BF5C43B9C674CF4 /* RubyCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RubyCore.podspec; path = ../RubyCore.podspec; sourceTree = "<group>"; };
+		74A3F2989F6276354BCB4516 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		804B4BC99BF5C43B9C674CF4 /* RubyCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RubyCore.podspec; path = ../RubyCore.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ED0E55CAE3DDB462070A108 /* libPods-RubyCore_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RubyCore_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B9A15633AEAFE15F529B5F /* Pods-RubyCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyCore_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RubyCore_Example/Pods-RubyCore_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C68BE70444B51A7AA9D279C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C68BE70444B51A7AA9D279C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DD98DA5A770AAF899C2E6338 /* Pods-RubyCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyCore_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RubyCore_Tests/Pods-RubyCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E1F6726EB5D97F56507F3D11 /* Pods_RubyCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RubyCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15C0C2B60E76D0035313C09 /* Pods-RubyCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyCore_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RubyCore_Tests/Pods-RubyCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +79,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				084E52F232A84BC8C133B18E /* Pods_RubyCore_Example.framework in Frameworks */,
+				4248FF6FB72584BB5C423F62 /* libPods-RubyCore_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +90,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				3B41CA12D96A173F2A9D755B /* Pods_RubyCore_Tests.framework in Frameworks */,
+				C71E17306707CE7197CCEC85 /* libPods-RubyCore_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +125,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				E1F6726EB5D97F56507F3D11 /* Pods_RubyCore_Example.framework */,
-				6E86CF597A2B94B8CF3E1CA9 /* Pods_RubyCore_Tests.framework */,
+				416B1B627C9F11C719EA0528 /* libPods-RubyCore_Example.a */,
+				9ED0E55CAE3DDB462070A108 /* libPods-RubyCore_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,6 +134,7 @@
 		6003F593195388D20070C39A /* Example for RubyCore */ = {
 			isa = PBXGroup;
 			children = (
+				6CD0D5301F500E3A0001EC4A /* demo.mrb */,
 				6003F59C195388D20070C39A /* RBAppDelegate.h */,
 				6003F59D195388D20070C39A /* RBAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -282,6 +285,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				6CD0D5311F500E3A0001EC4A /* demo.mrb in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,6 +539,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RubyCore/RubyCore-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
 				INFOPLIST_FILE = "RubyCore/RubyCore-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -550,6 +558,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RubyCore/RubyCore-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
 				INFOPLIST_FILE = "RubyCore/RubyCore-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";

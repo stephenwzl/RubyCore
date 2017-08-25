@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RubyCore'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RubyCore.'
+  s.summary          = 'Ruby Interface For Objective-C'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ruby interface for Objective-C
                        DESC
 
-  s.homepage         = 'https://github.com/summerbabybiu/RubyCore'
+  s.homepage         = 'https://github.com/stephenwzl/RubyCore'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'summerbabybiu' => 'zhilong.wang@ele.me' }
-  s.source           = { :git => 'https://github.com/summerbabybiu/RubyCore.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'summerbabybiu' => 'admin@stephenw.cc' }
+  s.source           = { :git => 'https://github.com/stephenwzl/RubyCore.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'RubyCore/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'RubyCore' => ['RubyCore/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'MRuby', '~> 1.3'
 end
