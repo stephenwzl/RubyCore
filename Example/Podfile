@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RubyCore_Example' do
+  pod 'RubyCore', :path => '../'
+
+  target 'RubyCore_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
