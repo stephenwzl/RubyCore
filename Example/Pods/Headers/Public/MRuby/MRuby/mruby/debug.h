@@ -1,1 +1,1 @@
-../../../../../MRuby/MRuby.framework/Headers/mruby/debug.h
+../../../../../mruby/MRuby.framework/Headers/mruby/debug.h

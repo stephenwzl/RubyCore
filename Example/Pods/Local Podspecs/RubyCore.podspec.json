@@ -20,7 +20,7 @@
   },
   "source_files": "RubyCore/Classes/**/*",
   "dependencies": {
-    "MRuby": [
+    "mruby": [
       "~> 1.3"
     ]
   }

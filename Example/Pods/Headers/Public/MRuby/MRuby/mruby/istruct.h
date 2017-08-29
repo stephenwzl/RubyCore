@@ -1,1 +1,1 @@
-../../../../../MRuby/MRuby.framework/Headers/mruby/istruct.h
+../../../../../mruby/MRuby.framework/Headers/mruby/istruct.h

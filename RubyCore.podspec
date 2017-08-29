@@ -30,5 +30,5 @@ ruby interface for Objective-C
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'RubyCore/Classes/**/*'
-  s.dependency 'MRuby', '~> 1.3'
+  s.dependency 'mruby', '~> 1.3'
 end

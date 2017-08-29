@@ -2,7 +2,7 @@
 
 target 'RubyCore_Example' do
   pod 'RubyCore', :path => '../'
-  pod 'MRuby', :git => 'https://github.com/stephenwzl/ios-ruby-embedded.git'
+  pod 'mruby', '~> 1.3'
 
   target 'RubyCore_Tests' do
     inherit! :search_paths

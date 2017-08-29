@@ -1,4 +1,4 @@
-## About
+## mruby for iOS
 
 This is a project that will build the current mruby source into a XCode
 framework. That framework can then be used to embed Ruby into an iOS
@@ -10,28 +10,17 @@ For a complete example of using the product of the build check out
 This is not an attempt to make a bridge between Objective-C and Ruby, if you
 want that then check out the [mobiruby](http://mobiruby.org/) project.
 
-## Build
 
-* git clone git://github.com/carsonmcdonald/ios-ruby-embedded.git
-* cd ios-ruby-embedded
-* git submodule init
-* git submodule update
+## Install with Cocoapods
+`pod 'mruby', '~> 1.3'`
+
+## Custom Build
+
+* git clone
 * rake
 
 After the above steps you should have a complete MRuby.framework framework
 structure that is ready to use.
-
-## Install
-
-To install the framework in an XCode project follow these steps (these steps
-assume XCode 5.0.x):
-
-* Select the top of the project on the left hand project display
-* Select the "Build Phases" tab in the project details
-* Click the + button under the "Link Binary With Libraries" dropdown
-* Select "Add Other..." from the framework add popup
-* Navigate to the MRuby.framework direcotry in the file browser and click
-  "Open"
 
 ## Example Use
 

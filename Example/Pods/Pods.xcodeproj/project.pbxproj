@@ -31,10 +31,10 @@
 /* Begin PBXFileReference section */
 		0238C7BA48E1E0706DFD4EB8E509288C /* RubyContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RubyContext.m; path = RubyCore/Classes/RubyContext.m; sourceTree = "<group>"; };
 		063B612633F26E433626C9ABF5B61AB9 /* Pods-RubyCore_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RubyCore_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1201F84C44875F51D621B6A6080D8601 /* libPods-RubyCore_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RubyCore_Example.a"; path = "libPods-RubyCore_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1201F84C44875F51D621B6A6080D8601 /* libPods-RubyCore_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RubyCore_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18133A78618FBB420815BA0056BE9E92 /* RubyCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RubyCore.h; path = RubyCore/Classes/RubyCore.h; sourceTree = "<group>"; };
 		19F5994E70F563F792BEC7A7254C3765 /* Pods-RubyCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RubyCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1DD029539F4B5D1B6B9ECE575EC20A7E /* libRubyCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRubyCore.a; path = libRubyCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD029539F4B5D1B6B9ECE575EC20A7E /* libRubyCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRubyCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		266A288D73892CA625F5053489D25A5E /* RubyCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RubyCore-dummy.m"; sourceTree = "<group>"; };
 		2F64B33BE0039193BD7E23C39B18AE19 /* Pods-RubyCore_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RubyCore_Tests-dummy.m"; sourceTree = "<group>"; };
 		308031AFADF9E68C8ED6234AEAB95503 /* RubyCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RubyCore-prefix.pch"; sourceTree = "<group>"; };
@@ -43,12 +43,12 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7D369928CD53FA702E2B5C4EE3A01DCF /* Pods-RubyCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RubyCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		812ABE91F02292F2C06FBC9C55F3DB7A /* Pods-RubyCore_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RubyCore_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96A9523EC6F8B4E1D1FDD50365FA1588 /* RubyContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RubyContext.h; path = RubyCore/Classes/RubyContext.h; sourceTree = "<group>"; };
-		9A2001C92FEFE25B63878AA1258208D4 /* MRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MRuby.framework; sourceTree = "<group>"; };
 		9D64EF846AC8487B3A2700473AAD7B1A /* Pods-RubyCore_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RubyCore_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A32F8FCC1476833C082693AE4EA38823 /* libPods-RubyCore_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RubyCore_Tests.a"; path = "libPods-RubyCore_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32F8FCC1476833C082693AE4EA38823 /* libPods-RubyCore_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RubyCore_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6987C37E174FB7B13B6C4F0B2F30FD9 /* Pods-RubyCore_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RubyCore_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC11E03EE587CD3F5553FB8961EC0CBD /* MRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MRuby.framework; sourceTree = "<group>"; };
 		AC710A315A04404C850E31AAF672D68B /* Pods-RubyCore_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RubyCore_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B307205FA8CA90AD83481E0C191E5C42 /* Pods-RubyCore_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RubyCore_Example-dummy.m"; sourceTree = "<group>"; };
 		C701FC7B511B61FB7ED1F280A3A1A33C /* Pods-RubyCore_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RubyCore_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -93,12 +93,12 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		025F76004D6CD854BD4B28AC5D3681A5 /* Frameworks */ = {
+		071E050A37E859CFFB3352632124634D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9A2001C92FEFE25B63878AA1258208D4 /* MRuby.framework */,
+				D6769AF8A6C4FB61238BDE73DE20F172 /* mruby */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		1B124A090B2BCC3FECA540151840885A /* Products */ = {
@@ -109,6 +109,14 @@
 				1DD029539F4B5D1B6B9ECE575EC20A7E /* libRubyCore.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		38C42977ACA15AA36B4F2C22F0A53DF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC11E03EE587CD3F5553FB8961EC0CBD /* MRuby.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		3CE7CB95D6CBBAC6D757F7373752920D /* Pods-RubyCore_Tests */ = {
@@ -143,7 +151,7 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				00C48DCDA66F9410D4F51A0AC89B4094 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B3C33256B56A091F91EFFFD2D8539C8B /* Pods */,
+				071E050A37E859CFFB3352632124634D /* Pods */,
 				1B124A090B2BCC3FECA540151840885A /* Products */,
 				E5B4EDEE296A797FBDE799B4E85E8A1C /* Targets Support Files */,
 			);
@@ -159,14 +167,6 @@
 			);
 			name = RubyCore;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		B3C33256B56A091F91EFFFD2D8539C8B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D83318EA5B6286BFAE1028BC8DA08D0A /* MRuby */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -185,13 +185,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D83318EA5B6286BFAE1028BC8DA08D0A /* MRuby */ = {
+		D6769AF8A6C4FB61238BDE73DE20F172 /* mruby */ = {
 			isa = PBXGroup;
 			children = (
-				025F76004D6CD854BD4B28AC5D3681A5 /* Frameworks */,
+				38C42977ACA15AA36B4F2C22F0A53DF9 /* Frameworks */,
 			);
-			name = MRuby;
-			path = MRuby;
+			path = mruby;
 			sourceTree = "<group>";
 		};
 		E5B4EDEE296A797FBDE799B4E85E8A1C /* Targets Support Files */ = {
@@ -466,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58EE53B9B30766C117FC690F51F16F85 /* RubyCore.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -562,6 +562,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58EE53B9B30766C117FC690F51F16F85 /* RubyCore.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";

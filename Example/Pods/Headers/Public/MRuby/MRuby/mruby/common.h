@@ -1,1 +1,1 @@
-../../../../../MRuby/MRuby.framework/Headers/mruby/common.h
+../../../../../mruby/MRuby.framework/Headers/mruby/common.h

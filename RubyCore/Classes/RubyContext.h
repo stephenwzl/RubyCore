@@ -34,6 +34,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface RubyContext : NSObject
 
+/**
+ execute ruby byte code
+
+ @param path byte code file path
+ */
 - (void)executeByteCodeSource:(NSString *)path;
 
 /**
@@ -42,6 +47,10 @@ NS_ASSUME_NONNULL_BEGIN
  @param provider a class conforms RBGemProvider protocol
  */
 - (void)registerGemProvider:(Class)provider;
+
+/// subscript support
+- (nullable id)objectAtIndexedSubscript:(NSString *)idx;
+- (void)setObject:(id)obj atIndexedSubscript:(NSString *)idx;
 
 @end
 

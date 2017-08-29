@@ -1,1 +1,1 @@
-../../../../../MRuby/MRuby.framework/Headers/mruby/class.h
+../../../../../mruby/MRuby.framework/Headers/mruby/class.h

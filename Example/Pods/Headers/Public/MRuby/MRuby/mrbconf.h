@@ -1,1 +1,1 @@
-../../../../MRuby/MRuby.framework/Headers/mrbconf.h
+../../../../mruby/MRuby.framework/Headers/mrbconf.h
